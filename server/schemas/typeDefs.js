@@ -31,7 +31,7 @@ input savedBook {
 }
 
 type Query {
-    me: User  
+    me(email: String!): User
   }
 
 type Mutation {
